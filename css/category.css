@@ -1,0 +1,82 @@
+ul {
+  list-style: none;
+}
+.hd_top {
+  width: 100%;
+  background-color: #006699;
+}
+.hd_top .mui-icon-search {
+  float: right;
+  color: #fff0ff;
+}
+.hd_top .mui-icon-left-nav {
+  color: #fff0ff;
+}
+.hd_top h1 {
+  color: #fff0ff;
+  font-size: 17px;
+}
+.ft_bottom {
+  background-color: #006699;
+}
+.ft_bottom .mui-tab-item.mui-active {
+  color: darkorange;
+}
+.ft_bottom .mui-tab-item {
+  color: #fff0ff;
+}
+.my-content {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.my-content .content_left {
+  width: 80px;
+  height: 100%;
+  background-color: #f5f5f5;
+  float: left;
+  position: relative;
+}
+.my-content .content_left .mui-scroll {
+  background-color: #fff;
+}
+.my-content .content_left .mui-scroll a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  font-size: 13px;
+  text-align: center;
+  color: #000;
+}
+.my-content .content_left .mui-scroll a.active {
+  background-color: #f5f5f5;
+  border-right: 1px solid transparent;
+}
+.my-content .content_right {
+  margin-left: 90px;
+  height: 100%;
+  position: relative;
+}
+.my-content .content_right ul {
+  overflow: hidden;
+  padding: 0;
+  background: #fff;
+  margin-top: 10px;
+}
+.my-content .content_right ul li {
+  width: 33.33%;
+  float: left;
+}
+.my-content .content_right ul li a {
+  display: block;
+  text-align: center;
+}
+.my-content .content_right ul li a img {
+  width: 100%;
+}
+/*# sourceMappingURL=category.css.map */

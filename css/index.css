@@ -1,3 +1,6 @@
+ul {
+  list-style: none;
+}
 .hd_top {
   width: 100%;
   background-color: #006699;
@@ -13,10 +16,10 @@
 .ft_bottom {
   background-color: #006699;
 }
-.ft_bottom .mui-tab-item:hover {
+.ft_bottom .mui-tab-item.mui-active {
   color: darkorange;
 }
-.ft_bottom span {
+.ft_bottom .mui-tab-item {
   color: #fff0ff;
 }
 .mui-content {
@@ -77,7 +80,6 @@
 .commodity ul li {
   width: 50%;
   float: left;
-  list-style: none;
   padding: 5px;
 }
 .commodity ul li a {

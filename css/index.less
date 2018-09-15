@@ -1,4 +1,5 @@
-
+//引入公共文件
+@import 'base.less';
 .hd_top {
   width: 100%;
   background-color: #006699;
@@ -14,12 +15,10 @@
 
 .ft_bottom {
   background-color: #006699;
-  .mui-tab-item {
-    &:hover {
+  .mui-tab-item.mui-active {
       color: darkorange;
-    }
   }
-  span {
+  .mui-tab-item {
     color: #fff0ff;
   }
 }
@@ -84,7 +83,7 @@
     li {
       width: 50%;
       float: left;
-      list-style: none;
+      //list-style: none;
       //border: 1px solid #cccccc;
       padding: 5px;
       a {
@@ -127,7 +126,6 @@
         }
 
       }
-
     }
   }
 }
