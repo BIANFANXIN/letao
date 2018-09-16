@@ -25,7 +25,6 @@ $(function () {
             // 给第一个一级分类添加选中状态
             $('#category_second').find('a').eq(0).addClass('active');
         }
-
     });
 
 // 获取二级数据

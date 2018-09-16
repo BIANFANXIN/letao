@@ -1,0 +1,76 @@
+ul,
+li {
+  list-style: none;
+}
+.hd_top {
+  width: 100%;
+  background-color: #006699;
+}
+.hd_top .mui-icon-search {
+  float: right;
+  color: #fff0ff;
+}
+.hd_top .mui-icon-left-nav {
+  color: #fff0ff;
+}
+.hd_top h1 {
+  color: #fff0ff;
+  font-size: 17px;
+}
+.ft_bottom {
+  background-color: #006699;
+}
+.ft_bottom .mui-tab-item.mui-active {
+  color: darkorange;
+}
+.ft_bottom .mui-tab-item {
+  color: #fff0ff;
+}
+.search_box {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  bottom: 55px;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+.search_box .search {
+  position: relative;
+  padding-bottom: 5px;
+}
+.search_box .search input[type="text"] {
+  height: 33px;
+  border: 1px solid #006699;
+  font-size: 13px;
+  color: #666;
+}
+.search_box .search input[type="button"] {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #006699;
+  color: #fff;
+  width: 60px;
+  border: 1px solid #006699;
+}
+.search_box .tb .search_ck span {
+  font-size: 15px;
+  color: #999;
+}
+.search_box .tb .search_ck span:last-of-type {
+  float: right;
+}
+.search_box .tb .search_ck .mui-icon {
+  line-height: normal;
+}
+.search_box .tb .mui-table-view li:first-of-type {
+  padding: 5px 15px 11px 15px;
+}
+.search_box .tb .mui-table-view:before {
+  height: 0px;
+}
+/*# sourceMappingURL=search.css.map */
